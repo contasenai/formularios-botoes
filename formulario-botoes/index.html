@@ -4,38 +4,35 @@
     <meta charset="UTF-8">
     <title>Formulario de Inscrição de Workshop</title>
 </head>
-<body>
-<header>
-    
-</header>
-    <main>
-        <section id="incrição"
-            <h2>Ficha de Incrição no Workshop</h2>
+<body style="margin: 0; font-family: Arial, Helvetica; background-color: #183374; color: #f8fafc">
+    <main style="max-width: 900px; margin: 28px auto; padding: 0 18px;">
+        <section id="incrição"id="destaque" style="margin-bottom: 32px;">
+            <h2 style="margin-top: 0; color: #38bdf8; font-size: 24px;">Ficha de Incrição no Workshop</h2>
             <p>Preencha os dados abaixo:</p>
             <form action="#" method="POST">
                 <fieldset>
                     <legend><b>1 - Informações Pessoais</b></legend>
 
-                    <label for="campo-nome">Nome Completo: </label><br>
+                    <label style="display: block; margin-bottom: 6px; font-weight: bold; color: #cbd5e1;" for="nome_completo" for="campo-nome">Nome Completo: </label><br>
                     <input type="text", name="nome_completo" id="campo-nome"
                     placeholder="Informe seu nome" required size="40"> <br>
 
-                    <label for="campo-email">Email Pessoal</label><br>
+                    <label style="display: block; margin-bottom: 6px; font-weight: bold; color: #cbd5e1;" for="nome_completo" for="campo-email">Email Pessoal</label><br>
                     <input type="email", name="email-pessoal" id="campo-email"
                     placeholder="Informe seu E-mail" required size="40"> <br>
 
-                    <label for="campo-telefone">Número telefone: </label><br>
+                    <label style="display: block; margin-bottom: 6px; font-weight: bold; color: #cbd5e1;" for="nome_completo" for="campo-telefone">Número telefone: </label><br>
                     <input type="tel", name="numero_telefone" id="campo-telefone"
                     placeholder="Informe seu Telefone" required size="40"> <br>
 
-                    <label for="data-nascimento">Digite sua Data de Nascimento: </label><br>
+                    <label  for="data-nascimento">Digite sua Data de Nascimento: </label><br>
                     <input type="date", name="Data-nascimeto" id="campo-nascimento"
                     required >
                 </fieldset>
                 <fieldset>
                     <legend><b>2 - Prefêrencias do Workshop </b2></legend>
 
-                    <label for="Campo-curso">Selecione o Workshop desejado:</label><br>
+                    <label style="display: block; margin-bottom: 6px; font-weight: bold; color: #cbd5e1;" for="nome_completo" for="Campo-curso">Selecione o Workshop desejado:</label><br>
                     <select name="selecao_curso" id="campo-curso" required>
                             <option value="">Selecione uma opção</option>
                             <option value="front">Front-end</option>
@@ -79,7 +76,7 @@
 
                  <button type="reset"><b>Limpar formulário</b></button>
                 </form>
-            <section>
+            </section>
         </main>
     </body>
 </html>
